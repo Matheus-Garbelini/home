@@ -1,0 +1,33 @@
+sequenceDiagram
+participant ESP32/ESP8266
+participant Attacker
+participant Acess Point
+Note over ESP32/ESP8266,Attacker: Client starts with PMK = 0
+ESP32/ESP8266->>Acess Point: Probe Request
+Acess Point-->>ESP32/ESP8266: Probe Response
+ESP32/ESP8266->>Acess Point: Authentication
+Acess Point-->>ESP32/ESP8266: Authentication
+ESP32/ESP8266->>Acess Point: Association Request
+Acess Point-->>ESP32/ESP8266: Association Response
+ESP32/ESP8266->>Acess Point: EAPoL-Start
+Acess Point-->>ESP32/ESP8266: EAPoL-Request Identity
+ESP32/ESP8266->>Acess Point: EAPoL-Identity
+loop Fragment
+	Acess Point-->>ESP32/ESP8266: EAP-Request (PEAP/TTLS/TLS)
+	ESP32/ESP8266->>Acess Point: EAP-Response (PEAP/TTLS/TLS)
+end
+Attacker-->>ESP32/ESP8266: EAP-Fail
+Note over ESP32/ESP8266,Attacker: Client uses PMK = 0
+alt Optional
+Acess Point-->>ESP32/ESP8266: EAP-Success
+end
+Attacker->>Acess Point: Deauth
+Acess Point--XAttacker: Deauth
+Note over ESP32/ESP8266,Attacker: Attacker uses PMK = 0
+Attacker-->>ESP32/ESP8266: Message 1
+ESP32/ESP8266->>Attacker: Message 2
+Attacker-->>ESP32/ESP8266: Message 3
+ESP32/ESP8266->>Attacker: Message 4
+ESP32/ESP8266->>Attacker: Data
+Attacker-->>ESP32/ESP8266: Data
+Note over ESP32/ESP8266,Acess Point: Attacker now have full control over communication 
