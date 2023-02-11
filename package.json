@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Matheus-Garbelini/home#readme",
   "dependencies": {
-    "netlify-cli": "^3.10.1"
+    "netlify-cli": "^12.12.0"
   }
 }
