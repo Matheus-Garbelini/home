@@ -64,6 +64,6 @@ education:
 Born in Curitiba city, Brazil, Matheus is currently a Research Fellow at Singapore University of Technology and Design (SUTD) and integrant of [ASSET Research Group](https://asset-group.github.io/).
 He has a background in Electronics Engineering (2019 B.Eng) from Pontifical Catholic University of Paraná and always loves to mess with low-level software and hardware.
 
-In 2023, he achieved a Ph.D in Computer Science (Wireless Software Fuzz Testing) and a [2024 Outstanding Thesis Award](https://sutd.edu.sg/Admissions/Graduate/News-and-Events/Accolades) from SUTD under supervision of professor [Sudipta Chattopadhyay](https://istd.sutd.edu.sg/people/faculty/sudipta-chattopadhyay).
+In 2023, he achieved a Ph.D in Computer Science (Wireless Software Fuzz Testing) and a [2024 Outstanding Thesis Award](https://sutd.edu.sg/Admissions/Graduate/News-and-Events/Accolades) from SUTD under supervision of Professor [Sudipta Chattopadhyay](https://istd.sutd.edu.sg/people/faculty/sudipta-chattopadhyay).
 
 Matheus is known for the discovery of a collection of wireless vulnerabilities such as [Sweyntooth](https://asset-group.github.io/disclosures/sweyntooth/), [Braktooth](https://asset-group.github.io/disclosures/braktooth/) and [5Ghoul](https://asset-group.github.io/disclosures/5ghoul/).
