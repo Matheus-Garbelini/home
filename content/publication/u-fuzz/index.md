@@ -1,0 +1,10 @@
+---
+title: "U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices (ICST 2024)"
+publishDate: 2024-05-27
+authors: ["Zewen Shang", "Matheus E. Garbelini", "S. Chattopadhyay"]
+abstract: "Internet-of-Things (IoT) devices have become widely popular and are being increasingly utilized in both home and industrial environments. Such devices use a variety of different protocols for communication. Considering the complex and stateful nature of these protocols, their implementations may contain security vulnerabilities and are subject to remote exploitation. To address this, we present U-Fuzz, a framework to systematically discover and replicate security vulnerabilities on arbitrary wired and wireless IoT protocol implementations. Given only a network capture file which contains the packet traces of normal (i.e., benign) communication, U-Fuzz automatically constructs a protocol state machine. Subsequently, this state machine is leveraged via a stateful fuzzing engine to arbitrarily manipulate and replay communicated packets. U-Fuzz carefully disintegrates the design of state machine construction from the fuzzing actions and optimizations, allowing U-Fuzz to work with an arbitrary number of protocols without any change in the stateful fuzzing engine. U-Fuzz does not require any access to the source code of the protocol and it also does not involve any instrumentation. This makes U-Fuzz to applicable out-of-the-box for fuzzing arbitrary IoT devices employing a variety of protocols. We implemented U-Fuzz and applied it against ten subject implementations including implementations on five commercial-off-the-shelf (COTS) devices employing three popular IoT protocols: 5G NR, Zigbee, and CoAP. As of today, U-Fuzz discovered a total of 11 new vulnerabilities (out of 16) and CVEs have already been assigned to all of them."
+featured: true
+publication: "*IEEE Conference on Software Testing, Verification and Validation (ICST 2024)*"
+url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10001673"
+url_code: "https://github.com/asset-group/U-Fuzz"
+---
