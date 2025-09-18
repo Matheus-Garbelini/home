@@ -33,7 +33,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: hero/envelope
-    link: 'mailto:matheus_garbelini@mymail.sutd.edu.sg'
+    link: 'mailto:matheus_garbelini@sutd.edu.sg'
   - icon: brands/x
     link: https://twitter.com/MatheusGarbelin
   - icon: hero/academic-cap
