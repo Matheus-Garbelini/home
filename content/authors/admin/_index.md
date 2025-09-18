@@ -40,7 +40,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:matheus_garbelini@mymail.sutd.edu.sg'
+  link: 'mailto:matheus_garbelini@sutd.edu.sg'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MatheusGarbelin
