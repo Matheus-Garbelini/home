@@ -60,15 +60,21 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     
-    # Map the step output to a job output so the environment can read it reliably
+    # Map the step output to a job output so the environment can read it safely
     outputs:
       page_url: ${{ steps.deployment.outputs.page_url }}
       
+    permissions:
+      pages: write
+      id-token: write
+      deployments: write
+
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-      
+      url: ${{ steps.deployment.outputs.page_url }} # Safely evaluated now via the job context
+
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+
