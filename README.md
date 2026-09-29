@@ -1,5 +1,16 @@
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 
+## Preview this site locally
+
+On Linux x86_64, run `./serve-local.sh` from any directory. The script downloads
+Hugo Extended v0.126.3 and Go v1.24.5 into a temporary directory and starts
+the site at `http://localhost:1313/`, listening on `0.0.0.0:1313`. Open the
+host's address on port 1313 from another device if needed. Stop with Ctrl+C;
+the temporary downloads are removed when the server exits. Requires `curl`
+and `tar` and internet access on the first run (including Hugo module downloads).
+Only run this on a trusted network: binding to `0.0.0.0` exposes the preview
+to anyone who can reach that port.
+
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
 
 The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.

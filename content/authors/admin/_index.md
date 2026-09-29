@@ -20,12 +20,12 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Research Fellow
+role: Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Singapore University of Technology and Design (SUTD)
-    url: "https://www.sutd.edu.sg/"
+  - name: Nanyang Technological University (NTU)
+    url: "https://www.ntu.edu.sg/"
   - name: ASSET Research Group
     url: "https://asset-group.github.io/"
 
@@ -40,6 +40,9 @@ profiles:
     link: https://scholar.google.com/citations?user=_PXBxu0AAAAJ&hl=en#
   - icon: brands/github
     link: https://github.com/Matheus-Garbelini/
+  - icon: brands/linkedin
+    link: https://www.linkedin.com/in/matheus-e-garbelini-phd-17555b111/
+    label: LinkedIn
 
 interests:
   - Wireless Security
@@ -61,7 +64,7 @@ education:
 
 ## About Me
 
-Born in Curitiba city, Brazil, Matheus is currently a Research Fellow at Singapore University of Technology and Design (SUTD) and integrant of [ASSET Research Group](https://asset-group.github.io/).
+Born in Curitiba city, Brazil, Matheus is currently a Research Scientist at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) and a member of [ASSET Research Group](https://asset-group.github.io/).
 He has a background in Electronics Engineering (2019 B.Eng) from Pontifical Catholic University of Paraná and always loves to mess with low-level software and hardware.
 
 In 2023, he achieved a Ph.D in Computer Science (Wireless Software Fuzz Testing) and a [2024 Outstanding Thesis Award](https://sutd.edu.sg/Admissions/Graduate/News-and-Events/Accolades) from SUTD under supervision of Professor [Sudipta Chattopadhyay](https://istd.sutd.edu.sg/people/faculty/sudipta-chattopadhyay).
